@@ -1,0 +1,196 @@
+@font-face {
+    font-family: Lemonmilk;
+    src: url(LEMONMILK-Bold.otf);
+}
+
+body{
+    background-color: rgb(226, 253, 252);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@keyframes rgbAnimation {
+    0% {color: red;}
+    25% {color: green;}
+    50% {color: blue;}
+    75% {color:rgb(248, 53, 222);}
+    100% {color: red;}
+}
+
+.rgb-text {
+    font-size: 15px;
+    font-weight: bold;
+    animation: rgbAnimation 3s infinite;
+}
+
+p {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+#github{
+    text-align: left;
+}
+
+#githublink{
+    font-family: Lemonmilk;
+    font-size: 12px;
+    position: relative;
+    left: 5px;
+}
+
+#cadastrarornito{
+    font-family: Lemonmilk;
+    font-weight: bold;
+    text-decoration: underline;
+    position: relative;
+    left: 5px;
+    color: rgb(2, 156, 15);
+}
+
+#inputborders{
+    border-radius: 60px;
+    border: 1px solid black;
+    background-color: rgb(228, 228, 228);
+}
+
+#tabela{
+    background-color: rgb(126, 32, 32);
+}
+.linhacoluna{
+    color: white;
+}
+
+.titulostopicos{
+    color: black; 
+    font-family: 'Arial Black', sans-serif; 
+    font-weight: bold;
+}
+
+.paragrafo-1{
+    color: rgb(0, 88, 0); 
+    font-family: Verdana, sans-serif;
+}
+
+.paragrafo-2{
+    color: rgb(71, 30, 30); 
+    font-family: Verdana, sans-serif;
+}
+
+#cabecalho-principal{
+    color: brown;
+    font-family: 'Arial Black', Arial, sans-serif; 
+    font-weight: bold;
+}
+
+#cabecalho-retangulo{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom, rgb(4, 144, 179), rgb(13, 161, 172),rgb(11, 247, 247),rgb(154, 248, 255),#E4FFF6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    text-decoration: underline 4px green;
+}
+
+#ornitorrincos-sombra {
+    position: absolute;
+    font-family: Lemonmilk;
+    font-size: 120px;
+    color: rgba(255, 255, 255, 0.068);
+    opacity: 0.3;
+    z-index: 0;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+#ornitorrincos {
+    font-family: Lemonmilk;
+    font-size: 120px;
+    background-image: linear-gradient(to bottom, rgb(4, 110, 0), rgb(6, 143, 58), rgb(9, 177, 9) , rgb(8, 241, 0), rgb(255, 255, 255));
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    
+}
+
+#chapeuPerry{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 1%;
+    left: 8%;
+}
+
+#menu-barra{
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    top: 0.5%;
+}
+
+#lista-menu{
+    display: none;
+    position: fixed;
+    right: 90.5%;
+    top: -1%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    list-style: none;
+    border-radius: 10px;
+}
+
+body:has(#menu-barra:hover) #lista-menu{
+    display: block;
+}
+
+body:has(#lista-menu:hover) #lista-menu{
+    display: block;
+}
+
+#tabela{
+    position: relative;
+    left: 500px;
+}
+
+#olhosPerry{
+    position: absolute;
+    top: 240px;
+    right: 1000px;
+    height: 30px;
+    width: 100px;
+}
+
+#cadastro1{
+    font-family: Lemonmilk;
+    color: brown;
+    text-decoration: underline;
+}
+
+#cadastro2{
+    font-family: Lemonmilk;
+    color: rgb(0, 155, 147);
+    text-decoration: underline;
+}
+
+#cadastro3{
+    font-family: Lemonmilk;
+    color: orange;
+    text-decoration: underline;
+}
+
+#botaoCadastro{
+    font-weight: bold;
+    position: relative;
+    left: 145px; 
+    margin-top: 10px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#jogo{
+    position: relative;
+    left: 5px;
+}
+
