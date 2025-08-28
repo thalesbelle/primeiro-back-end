@@ -124,6 +124,50 @@
                         </tr>
                     </tbody>
                 </table>
+
+                <section>
+                    <h1 class="titulostopicos"><u>Entre em Contato</u></h1>
+                    <form style="font-family: Verdana, sans-serif; margin-top: 20px; margin-bottom: 40px;">
+                        <table>
+                            <tr>
+                                <th><label for="nome">Nome Completo:</label></th>
+                                <td><input type="text" id="nome" name="nome" required id="inputborders"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="email">E-mail:</label></th>
+                                <td><input type="email" id="email" name="email" required id="inputborders"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="telefone">Telefone:</label></th>
+                                <td><input type="tel" id="telefone" name="telefone" required id="inputborders" placeholder="(DDD) 91234-5678"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="endereco">Endereço:</label></th>
+                                <td><input type="text" id="endereco" name="endereco" id="inputborders"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="mensagem">Mensagem:</label></th>
+                                <td><textarea id="mensagem" name="mensagem" rows="4" cols="30" style="border-radius: 10px; padding: 8px;"></textarea></td>
+                            </tr>
+                        </table>
+                        <br>
+                        <button type="submit" id="botaoCadastro">ENVIAR</button>
+                    </form>
+                </section>
+
+                <h2>Lista de Avaliações</h2>
+                <button onclick="listarAvaliacao()">Listar Avaliações</button>
+                <ul id="lista-avaliacao"></ul>
+
+                <h2>Adicionar Avaliação</h2>
+                <input id="avaliacao" placeholder="Insira sua avaliação">
+                <button onclick="adicionarAvaliacao()">Adicionar</button>
+
+
+
+
+
+                
             </section>
             <br><br>
 
@@ -168,5 +212,6 @@
                 <div id="github">
                 <a href="https://github.com/thalesbelle" target="_blank" class="rgb-text" id="githublink">By: Thales Bellé</a>
             </footer>
+            <script src="scriptAvaliacoes.js"></script>
     </body>
 </html>
